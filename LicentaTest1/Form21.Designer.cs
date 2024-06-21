@@ -46,7 +46,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Form21";
-            this.Text = "Form21";
+            this.Text = "AFISARE IMAGINI ARBORI";
             this.Load += new System.EventHandler(this.Form21_Load);
             this.ResumeLayout(false);
 

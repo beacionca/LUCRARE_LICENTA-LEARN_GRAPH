@@ -64,7 +64,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form24";
-            this.Text = "Form24";
+            this.Text = "ALEGERE TIP GRAF";
             this.ResumeLayout(false);
 
         }

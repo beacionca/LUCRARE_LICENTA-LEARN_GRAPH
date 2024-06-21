@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace LicentaTest1
 {
@@ -34,7 +35,7 @@ namespace LicentaTest1
 
         private void Form23_Load(object sender, EventArgs e)
         {
-            string folder = @"C:\Users\Beatrice\Desktop\AN III\semestru 2\LICENTA\TEORIE_GRAFURI\";
+            string folder = @"C:\Users\Beatrice\Desktop\AN III\semestru 2\LICENTA\TEORIE_ARBORI\";
             string fisier = userNume + " " + userPrenume + ".txt";
             string FilePath = folder + fisier;
 

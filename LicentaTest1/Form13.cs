@@ -33,7 +33,7 @@ namespace LicentaTest1
         
         private static int[,] graph = new int[MAX_NODES, MAX_NODES];
 
-        /
+        
         private List<string> caiImagini;
         private Random generatorAleator;
 

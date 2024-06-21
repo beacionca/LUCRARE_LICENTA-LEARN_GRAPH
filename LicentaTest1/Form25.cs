@@ -446,7 +446,7 @@ namespace LicentaTest1
 
             GenerateDynamicRadioButtons2(radioButtonLabels);
 
-            MessageBox.Show("Pozitie raspuns corect : " + pozitieRaspunsCorect.ToString());
+            //MessageBox.Show("Pozitie raspuns corect : " + pozitieRaspunsCorect.ToString());
             PozitieRaspunsCorectAnterior = pozitieRaspunsCorect;
             RaspunsCorectAnterior = rezultat;
             NumberofQuestion++;

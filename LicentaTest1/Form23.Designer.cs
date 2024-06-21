@@ -72,7 +72,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form23";
-            this.Text = "Form23";
+            this.Text = "TEORIE PROPUSA SPRE INVATARE - ARBORI";
             this.Load += new System.EventHandler(this.Form23_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

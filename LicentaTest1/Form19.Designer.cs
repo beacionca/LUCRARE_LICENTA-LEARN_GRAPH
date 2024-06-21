@@ -52,7 +52,7 @@ namespace LicentaTest1
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Form19";
-            this.Text = "Form19";
+            this.Text = "AFISARE IMAGINI GRAFURI";
             this.Load += new System.EventHandler(this.Form19_Load);
             this.ResumeLayout(false);
 

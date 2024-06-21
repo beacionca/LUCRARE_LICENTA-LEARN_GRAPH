@@ -64,7 +64,7 @@ namespace LicentaTest1
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Form f = new Form22(userNume, userPrenume);
+            Form f = new Form23(userNume, userPrenume);
             f.Show();
         }
     }

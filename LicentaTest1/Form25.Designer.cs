@@ -62,7 +62,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form25";
-            this.Text = "Form25";
+            this.Text = "EXERSARE GRAFURI ORIENTATE";
             this.Load += new System.EventHandler(this.Form25_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

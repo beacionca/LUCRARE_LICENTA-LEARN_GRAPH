@@ -73,7 +73,6 @@ namespace LicentaTest1
                 sc5.Parameters.AddWithValue("@parola", parola);
                 string nume = sc4.ExecuteScalar()?.ToString().Replace(" ", "");
                 string prenume = sc5.ExecuteScalar()?.ToString().Replace(" ", "");
-                MessageBox.Show(nume + " " + prenume);
                 sc4.ExecuteNonQuery();
                 sc5.ExecuteNonQuery();
                 cnn4.Close();

@@ -768,7 +768,6 @@ namespace LicentaTest1
                     sc2.Parameters.AddWithValue("@mail", userEmail);
                     string nume = sc1.ExecuteScalar()?.ToString().Replace(" ", "");
                     string prenume = sc2.ExecuteScalar()?.ToString().Replace(" ", "");
-                    MessageBox.Show(nume + " " + prenume);
                     sc1.ExecuteNonQuery();
                     cnn1.Close();
 
@@ -814,7 +813,6 @@ namespace LicentaTest1
                         sc3.Parameters.AddWithValue("@data_test", today);
                         sc3.ExecuteNonQuery();
                         cnn3.Close();
-                        MessageBox.Show("Inserare reusita!");
                     }
                 }
 
@@ -969,7 +967,7 @@ namespace LicentaTest1
 
                 GenerateDynamicRadioButtons2(radioButtonLabels);
 
-                MessageBox.Show("Pozitie raspuns corect : " + pozitieRaspunsCorect.ToString());
+                //MessageBox.Show("Pozitie raspuns corect : " + pozitieRaspunsCorect.ToString());
                 PozitieRaspunsCorectAnterior = pozitieRaspunsCorect;
                 NumberofQuestion++;
             }
